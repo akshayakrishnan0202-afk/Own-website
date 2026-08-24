@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshaya Krishnan | Digital Marketing & Brand Management</title>
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <style>
+    @media print {
+      .no-print { display: none !important; }
+      body { background: white !important; color: black !important; padding: 0 !important; }
+      .shadow-sm, .shadow-md { box-shadow: none !important; }
+      .border { border-color: #e2e8f0 !important; }
+    }
+  </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased font-sans selection:bg-indigo-500 selection:text-white">
+
+  <!-- Floating Navigation Bar -->
+  <header class="sticky top-0 z-50 bg-white/85 backdrop-blur-md border-b border-slate-200 no-print">
+    <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+      <a href="#" class="font-bold text-slate-900 tracking-tight text-lg">YN<span class="text-indigo-600">.</span></a>
+      <div class="flex items-center gap-3">
+        <!-- Direct LinkedIn Connection Button -->
+        <a href="https://www.linkedin.com/in/akshayakrishnan1/" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-700 text-white text-xs md:text-sm font-medium px-4 py-2 rounded-lg transition-colors shadow-sm">
+          <i data-lucide="linkedin" class="w-4 h-4"></i>
+          <span>Connect on LinkedIn</span>
+        </a>
+        <!-- Print / PDF Trigger -->
+        <button onclick="window.print()" title="Print / Save to PDF" 
+                class="inline-flex items-center gap-1.5 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs md:text-sm font-medium px-3.5 py-2 rounded-lg transition-colors border border-slate-300">
+          <i data-lucide="printer" class="w-4 h-4"></i>
+          <span class="hidden sm:inline">Save PDF</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-5xl mx-auto px-6 py-10 space-y-12">
+
+    <!-- Hero / Profile Intro -->
+    <section class="bg-white rounded-2xl border border-slate-200/80 p-8 md:p-10 shadow-sm relative overflow-hidden">
+      <div class="max-w-3xl space-y-4">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-700 text-xs font-semibold">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          Available for High-Impact Roles & Advisory
+        </div>
+        <h1 class="text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight">Your Name</h1>
+        <p class="text-lg md:text-xl font-medium text-indigo-600">Senior Digital Marketing & Brand Management Specialist</p>
+        <p class="text-slate-600 leading-relaxed text-sm md:text-base">
+          5+ years of driving enterprise technology distribution marketing, full-funnel lead generation, executive outreach, and cross-channel brand architecture. Leveraging LLM-driven automation (Gemini, Claude) to accelerate strategy, campaign scaling, and market intelligence.
+        </p>
+        
+        <!-- Contact Badges -->
+        <div class="flex flex-wrap gap-4 pt-2 text-xs md:text-sm text-slate-600">
+          <div class="flex items-center gap-1.5">
+            <i data-lucide="map-pin" class="w-4 h-4 text-slate-400"></i>
+            <span>Chennai, India</span>
+          </div>
+          <a href="mailto:akshayakrishnan0202@gmail.com" class="flex items-center gap-1.5 hover:text-indigo-600 transition-colors">
+            <i data-lucide="mail" class="w-4 h-4 text-slate-400"></i>
+            <span>akshayakrishnan0202@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/akshayakrishnan1/" target="_blank" class="flex items-center gap-1.5 hover:text-indigo-600 transition-colors">
+            <i data-lucide="external-link" class="w-4 h-4 text-slate-400"></i>
+            <span>https://www.linkedin.com/in/akshayakrishnan1/</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AI & Automation Integration (Distinctive Edge) -->
+    <section class="space-y-4">
+      <div class="flex items-center gap-2">
+        <i data-lucide="sparkles" class="w-5 h-5 text-indigo-600"></i>
+        <h2 class="text-xl font-bold text-slate-900">AI & Gemini Workflows in Practice</h2>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+          <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600">Content Acceleration</span>
+          <h3 class="font-semibold text-slate-900 text-sm">C-Suite & Multi-Persona Messaging</h3>
+          <p class="text-xs text-slate-600 leading-normal">Constructing targeted prompt frameworks for executive roundtable invitations, C-level thought leadership, and localized collateral variation.</p>
+        </div>
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+          <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600">Market Research</span>
+          <h3 class="font-semibold text-slate-900 text-sm">Competitive Moat & Trend Synthesis</h3>
+          <p class="text-xs text-slate-600 leading-normal">Running rapid multi-source analysis and structuring B2B enterprise landscapes for tech OEM distribution.</p>
+        </div>
+        <div class="bg-white p-5 rounded-xl border border-slate-200 shadow-sm space-y-2">
+          <span class="text-xs font-semibold uppercase tracking-wider text-indigo-600">Operations</span>
+          <h3 class="font-semibold text-slate-900 text-sm">Campaign Architecture Automation</h3>
+          <p class="text-xs text-slate-600 leading-normal">Automating lead-scoring logic, CRM campaign workflows, and dynamic email sequence mapping.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Experience -->
+    <section class="space-y-6">
+      <h2 class="text-xl font-bold text-slate-900">Professional Experience</h2>
+      <div class="space-y-6">
+
+        <!-- Role 1 -->
+        <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Digital Marketing & Brand Management Specialist</h3>
+              <p class="text-sm font-medium text-slate-600">Enterprise Technology Distribution Leader</p>
+            </div>
+            <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2.5 py-1 rounded w-fit">2025 – Present</span>
+          </div>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-600 space-y-1.5 leading-relaxed">
+            <li>Led targeted marketing campaigns and executive roundtable outreach initiatives for global technology brands (e.g., Cisco, HPE etc).</li>
+            <li>Orchestrated full-funnel lead generation programs combining paid media (LinkedIn, Google Ads) with marketing automation tools (Zoho Marketing Automation, CRM).</li>
+            <li>Designed interactive landing pages and conversion journeys to capture and nurture high-value enterprise leads.</li>
+          </ul>
+        </div>
+
+        <!-- Role 2 -->
+        <div class="bg-white rounded-xl border border-slate-200 p-6 shadow-sm space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+            <div>
+              <h3 class="text-base font-bold text-slate-900">Digital Marketing & Brand Strategist</h3>
+              <p class="text-sm font-medium text-slate-600">Agency & Corporate Engagements</p>
+            </div>
+            <span class="text-xs font-semibold text-slate-500 bg-slate-100 px-2.5 py-1 rounded w-fit">2021 – 2025</span>
+          </div>
+          <ul class="list-disc list-outside ml-5 text-sm text-slate-600 space-y-1.5 leading-relaxed">
+            <li>Managed multi-channel digital strategies, content ecosystems, and paid search/social campaigns.</li>
+            <li>Built brand identity frameworks, newsletters, and digital assets tailored to segmented target personas.</li>
+            <li>Implemented analytics dashboards to evaluate CAC, CTR, and attribution across active digital channels.</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Skills & Stack Grid -->
+    <section class="space-y-4">
+      <h2 class="text-xl font-bold text-slate-900">Skills & Tech Stack</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+        
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <h3 class="text-xs font-bold uppercase text-slate-500 tracking-wider mb-2">Growth & Ads</h3>
+          <p class="text-sm font-medium text-slate-800">LinkedIn Campaign Manager, Google Ads, Meta Ads Manager, Lead Nurturing</p>
+        </div>
+
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <h3 class="text-xs font-bold uppercase text-slate-500 tracking-wider mb-2">CRM & Automation</h3>
+          <p class="text-sm font-medium text-slate-800">Zoho CRM, Zoho Marketing Automation, Drip Workflows, Webhook Triggers</p>
+        </div>
+
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <h3 class="text-xs font-bold uppercase text-slate-500 tracking-wider mb-2">AI Acceleration</h3>
+          <p class="text-sm font-medium text-slate-800">Gemini Pro, Claude Research Prompts, HeyGen Video Ops, Workflow Automation</p>
+        </div>
+
+        <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+          <h3 class="text-xs font-bold uppercase text-slate-500 tracking-wider mb-2">Brand & Publishing</h3>
+          <p class="text-sm font-medium text-slate-800">Copywriting, Landing Page UX, Executive Collateral</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer Connect Callout -->
+    <footer class="bg-slate-900 text-white rounded-2xl p-8 text-center space-y-4">
+      <h2 class="text-2xl font-bold">Let's Connect & Collaborate</h2>
+      <p class="text-slate-400 text-sm max-w-md mx-auto">Open to discussing enterprise digital marketing, brand operations, or AI workflow implementation.</p>
+      <div class="flex flex-wrap justify-center gap-3 pt-2">
+        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" 
+           class="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white text-sm font-medium px-5 py-2.5 rounded-lg transition-colors">
+          <i data-lucide="linkedin" class="w-4 h-4"></i>
+          Connect on LinkedIn
+        </a>
+        <a href="mailto:akshayakrishnan0202@gmail.com" 
+           class="inline-flex items-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-sm font-medium px-5 py-2.5 rounded-lg border border-slate-700 transition-colors">
+          <i data-lucide="mail" class="w-4 h-4"></i>
+          Send an Email
+        </a>
+      </div>
+      <p class="text-xs text-slate-500 pt-4">© 2026 • Updated August 2026</p>
+    </footer>
+
+  </main>
+
+  <!-- Lucide Icon Renderer -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
